@@ -15,7 +15,7 @@
         $pessoa1 = new ContaBanco();
         $pessoa1->setnumConta("1111");
         $pessoa1->abrirConta("CC");
-        $pessoa1->setdono("Jubileu");
+        $pessoa1->setdono("Jose");
         $pessoa1->depositar(300);
         $pessoa1->pagarMensal();
         $pessoa1->sacar(300);
